@@ -11,6 +11,8 @@ namespace Event_D.Z_26._06._25
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             Console.WriteLine("=== Задание 1: RGB для цвета радуги ===");
             RunTask1();
 
